@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.BasicStackOperations", "C:\Users\nkelo\source\repos\01.StacksAndQueues\P01.BasicStackOperations\P01.BasicStackOperations.csproj", "{75B607F8-7EA8-468F-9BC0-1CADD2093507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.BasicQueueOperations", "P02.BasicQueueOperations\P02.BasicQueueOperations.csproj", "{AB6979A6-115E-4133-B497-E57947B7B387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75B607F8-7EA8-468F-9BC0-1CADD2093507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B607F8-7EA8-468F-9BC0-1CADD2093507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B607F8-7EA8-468F-9BC0-1CADD2093507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6979A6-115E-4133-B497-E57947B7B387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6979A6-115E-4133-B497-E57947B7B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6979A6-115E-4133-B497-E57947B7B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6979A6-115E-4133-B497-E57947B7B387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
