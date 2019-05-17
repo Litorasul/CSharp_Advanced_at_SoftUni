@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.BasicStackOperations", "C:\Users\nkelo\source\repos\01.StacksAndQueues\P01.BasicStackOperations\P01.BasicStackOperations.csproj", "{75B607F8-7EA8-468F-9BC0-1CADD2093507}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.BasicQueueOperations", "P02.BasicQueueOperations\P02.BasicQueueOperations.csproj", "{AB6979A6-115E-4133-B497-E57947B7B387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.MaxAndMinElement", "P03.MaxAndMinElement\P03.MaxAndMinElement.csproj", "{2B0474A0-45D1-400E-A6EB-66E6C6ECCCE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.MaxAndMinElement", "P03.MaxAndMinElement\P03.MaxAndMinElement.csproj", "{2B0474A0-45D1-400E-A6EB-66E6C6ECCCE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.FastFood", "P04.FastFood\P04.FastFood.csproj", "{31B09211-413C-4292-8E6E-CDFC92C5727A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.FastFood", "P04.FastFood\P04.FastFood.csproj", "{31B09211-413C-4292-8E6E-CDFC92C5727A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.FashionBoutique", "P05.FashionBoutique\P05.FashionBoutique.csproj", "{909467A2-84B4-4DA0-A6CC-A0AE5419DBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.FashionBoutique", "P05.FashionBoutique\P05.FashionBoutique.csproj", "{909467A2-84B4-4DA0-A6CC-A0AE5419DBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.AutoRepairService", "P06.AutoRepairService\P06.AutoRepairService.csproj", "{40C9F52C-E262-4DF8-ACE0-5F4AE52D2C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.AutoRepairService", "P06.AutoRepairService\P06.AutoRepairService.csproj", "{40C9F52C-E262-4DF8-ACE0-5F4AE52D2C86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.TruckTour", "P07.TruckTour\P07.TruckTour.csproj", "{1AA630A8-0D1C-432A-9535-86510BCFE49E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.TruckTour", "P07.TruckTour\P07.TruckTour.csproj", "{1AA630A8-0D1C-432A-9535-86510BCFE49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.BalancedParanthesis", "P08.BalancedParanthesis\P08.BalancedParanthesis.csproj", "{1C9162F1-FFC7-4F2E-9F26-146538EB1B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1AA630A8-0D1C-432A-9535-86510BCFE49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA630A8-0D1C-432A-9535-86510BCFE49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA630A8-0D1C-432A-9535-86510BCFE49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9162F1-FFC7-4F2E-9F26-146538EB1B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9162F1-FFC7-4F2E-9F26-146538EB1B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9162F1-FFC7-4F2E-9F26-146538EB1B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9162F1-FFC7-4F2E-9F26-146538EB1B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
