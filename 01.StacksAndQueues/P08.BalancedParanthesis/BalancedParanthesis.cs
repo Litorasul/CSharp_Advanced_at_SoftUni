@@ -30,15 +30,15 @@ namespace P08.BalancedParanthesis
                     break;
                 }
 
-                if (stackOfParanthesis.Peek() == '(' || item == ')')
+                if (stackOfParanthesis.Peek() == '(' && item == ')')
                 {
                     stackOfParanthesis.Pop();
                 }
-                else if (stackOfParanthesis.Peek() == '[' || item == ']')
+                else if (stackOfParanthesis.Peek() == '[' && item == ']')
                 {
                     stackOfParanthesis.Pop();
                 }
-                else if (stackOfParanthesis.Peek() == '{' || item == '}')
+                else if (stackOfParanthesis.Peek() == '{' && item == '}')
                 {
                     stackOfParanthesis.Pop();
                 }
