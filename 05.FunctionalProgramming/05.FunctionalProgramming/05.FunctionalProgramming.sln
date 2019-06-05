@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.CustomMinFunction", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.FindEvenOrOdd", "P04.FindEvenOrOdd\P04.FindEvenOrOdd.csproj", "{89E71844-EB75-41DE-B16C-E56AB6EDD04F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.AppliedArithmetics", "P05.AppliedArithmetics\P05.AppliedArithmetics.csproj", "{0D6BA7EF-6690-4BA9-BE8F-91ECAD463ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{89E71844-EB75-41DE-B16C-E56AB6EDD04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E71844-EB75-41DE-B16C-E56AB6EDD04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E71844-EB75-41DE-B16C-E56AB6EDD04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6BA7EF-6690-4BA9-BE8F-91ECAD463ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BA7EF-6690-4BA9-BE8F-91ECAD463ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BA7EF-6690-4BA9-BE8F-91ECAD463ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BA7EF-6690-4BA9-BE8F-91ECAD463ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
