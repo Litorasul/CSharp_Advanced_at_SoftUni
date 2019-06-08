@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10.PredicateParty", "P10.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.PartyReservationFilterModule", "P11.PartyReservationFilterModule\P11.PartyReservationFilterModule.csproj", "{B794BBC5-DDCE-43E2-8CE9-F116627B25A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.TriFunction", "P12.TriFunction\P12.TriFunction.csproj", "{74C1C85D-5B83-4D1C-99FC-E9954AE5EE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B794BBC5-DDCE-43E2-8CE9-F116627B25A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B794BBC5-DDCE-43E2-8CE9-F116627B25A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B794BBC5-DDCE-43E2-8CE9-F116627B25A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C1C85D-5B83-4D1C-99FC-E9954AE5EE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C1C85D-5B83-4D1C-99FC-E9954AE5EE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C1C85D-5B83-4D1C-99FC-E9954AE5EE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C1C85D-5B83-4D1C-99FC-E9954AE5EE7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
