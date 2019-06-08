@@ -13,55 +13,86 @@ namespace P10.PredicateParty
 
             string command = string.Empty;
 
+            Func<string, int, bool> lenghtFilter = (name, lenght) => name.Length == lenght;
+            Func<string, string, bool> startsWithFilter = (name, param) => name.StartsWith(param);
+            Func<string, string, bool> endsWithFilter = (name, param) => name.EndsWith(param);
+
             while ((command = Console.ReadLine()) != "Party!")
             {
                 string[] commArr = command
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-                string toDo = commArr[0].ToLower();
-                string action = commArr[1].ToLower();
+                string toDo = commArr[0];
+                string action = commArr[1];
+                string parameter = commArr[2];
 
-                if (toDo == "remove")
+                if (toDo == "Remove")
                 {
-                    if (action == "lenght")
+                    if (action == "StartsWith")
                     {
-                        int lenght = int.Parse(commArr[2]);
-
-                        partyGuests = partyGuests
-                            .Where(p => p.Count() <= lenght)
-                            .ToList();
-
+                        partyGuests = partyGuests.Where(name => !startsWithFilter(name, parameter))
+                        .ToList();
                     }
-                    else if (action == "startswith")
+                    else if (action == "EndsWith")
                     {
-                        string beginning = commArr[2];
+                        partyGuests = partyGuests.Where(name => !endsWithFilter(name, parameter))
+                        .ToList();
                     }
-                    else if (action == "endswith")
+                    else if (action == "Length")
                     {
-                        string end = commArr[2];
+                        int lenght = int.Parse(parameter);
+
+                        partyGuests = partyGuests.Where(name => !lenghtFilter(name, lenght))
+                        .ToList();
 
                     }
                 }
                 else
                 {
-                    if (action == "lenght")
+                    if (action == "StartsWith")
                     {
-                        int lenght = int.Parse(commArr[2]);
+                        var toDouble = partyGuests
+                            .Where(name => startsWithFilter(name, parameter))
+                            .ToList();
+
+                        foreach (var item in toDouble)
+                        {
+                            partyGuests.Add(item);
+                        }
+                    }
+                    else if (action == "EndsWith")
+                    {
+                        var toDouble = partyGuests.Where(name => endsWithFilter(name, parameter))
+                        .ToList();
+
+                        foreach (var item in toDouble)
+                        {
+                            partyGuests.Add(item);
+                        }
+                    }
+                    else if (action == "Length")
+                    {
+                        int lenght = int.Parse(parameter);
+
+                        var toDouble = partyGuests.Where(name => lenghtFilter(name, lenght))
+                        .ToList();
+
+                        foreach (var item in toDouble)
+                        {
+                            partyGuests.Add(item);
+                        }
 
                     }
-                    else if (action == "startswith")
-                    {
-                        string beginning = commArr[2];
-                    }
-                    else if (action == "endswith")
-                    {
-                        string end = commArr[2];
-
-                    }
-
                 }
+            }
 
-
+            if (partyGuests.Count() == 0)
+            {
+                Console.WriteLine("Nobody is going to the party!");
+            }
+            else
+            {
+                Console.WriteLine($"{string.Join(", ", partyGuests)} are going to the party!");
             }
         }
     }
