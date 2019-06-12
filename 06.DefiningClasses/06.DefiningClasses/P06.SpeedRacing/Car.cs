@@ -14,6 +14,11 @@ namespace P06.SpeedRacing
 
         public double FuelConsumption { get; set; }
 
+        public double TraveledDistance
+        {
+            get => this.traveledDistance;
+        }
+
         public Car()
         {
             traveledDistance = 0;
@@ -28,25 +33,25 @@ namespace P06.SpeedRacing
         }
 
         public void Drive(Car car, int distance)
-        {
-            bool itIsPossible = IsFuelEnough(car, distance);
+        {           
             double fuelNeeded = distance * car.FuelConsumption;
+            bool itIsPossible = IsFuelEnough(car, fuelNeeded);
 
             if (itIsPossible)
             {
-
+                car.FuelAmmount -= fuelNeeded;
+                traveledDistance += distance;
             }
             else
             {
-
+                Console.WriteLine("Insufficient fuel for the drive");
             }
         }
 
 
-        private bool IsFuelEnough(Car car, int distance)
+        private bool IsFuelEnough(Car car, double fuelNeeded)
         {
             bool result = false;
-            double fuelNeeded = distance * car.FuelConsumption;
 
             if (car.FuelAmmount >= fuelNeeded)
             {
