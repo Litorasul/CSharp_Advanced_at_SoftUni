@@ -10,3 +10,4 @@ Topics:
 04. Streams, Files and Directories
 05. Functional Programming
 06. Defining Classes
+07. Generics
