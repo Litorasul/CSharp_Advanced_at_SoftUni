@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.GenericBoxString", "P01.GenericBoxOfString\P01.GenericBoxString.csproj", "{CAD12605-D146-43E3-9982-0BDF895BE032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD12605-D146-43E3-9982-0BDF895BE032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD12605-D146-43E3-9982-0BDF895BE032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD12605-D146-43E3-9982-0BDF895BE032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD12605-D146-43E3-9982-0BDF895BE032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C965CAB3-14B2-4777-B6B5-8F2534132F40}
+	EndGlobalSection
+EndGlobal
