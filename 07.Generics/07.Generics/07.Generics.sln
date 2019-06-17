@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.GenericBoxString", "P01.GenericBoxOfString\P01.GenericBoxString.csproj", "{CAD12605-D146-43E3-9982-0BDF895BE032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.GenericBoxInt", "P02.GenericBoxInt\P02.GenericBoxInt.csproj", "{6EDAC4F5-59C8-433D-9409-A6C9950919BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.GenericBoxInt", "P02.GenericBoxInt\P02.GenericBoxInt.csproj", "{6EDAC4F5-59C8-433D-9409-A6C9950919BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.GenericSwapString", "P03.GenericSwapString\P03.GenericSwapString.csproj", "{C228D33A-FC85-45A3-B802-47EB2323FC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.GenericSwapString", "P03.GenericSwapString\P03.GenericSwapString.csproj", "{C228D33A-FC85-45A3-B802-47EB2323FC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.GenericSwapInt", "P04.GenericSwapInt\P04.GenericSwapInt.csproj", "{6FF63D7E-A041-45F2-92E9-E51F04B216F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.GenericSwapInt", "P04.GenericSwapInt\P04.GenericSwapInt.csproj", "{6FF63D7E-A041-45F2-92E9-E51F04B216F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.GenericCountString", "P05.GenericCountString\P05.GenericCountString.csproj", "{143B3938-F543-441D-AC8B-1DD85AFBDD69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.GenericCountString", "P05.GenericCountString\P05.GenericCountString.csproj", "{143B3938-F543-441D-AC8B-1DD85AFBDD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.GenericCountDouble", "06.GenericCountDouble\P06.GenericCountDouble.csproj", "{B5DF65B0-3038-4C40-9911-ECA25DA1ABC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DF65B0-3038-4C40-9911-ECA25DA1ABC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DF65B0-3038-4C40-9911-ECA25DA1ABC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DF65B0-3038-4C40-9911-ECA25DA1ABC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DF65B0-3038-4C40-9911-ECA25DA1ABC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
