@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.GenericSwapString", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.GenericSwapInt", "P04.GenericSwapInt\P04.GenericSwapInt.csproj", "{6FF63D7E-A041-45F2-92E9-E51F04B216F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.GenericCountString", "P05.GenericCountString\P05.GenericCountString.csproj", "{143B3938-F543-441D-AC8B-1DD85AFBDD69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6FF63D7E-A041-45F2-92E9-E51F04B216F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF63D7E-A041-45F2-92E9-E51F04B216F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF63D7E-A041-45F2-92E9-E51F04B216F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143B3938-F543-441D-AC8B-1DD85AFBDD69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
