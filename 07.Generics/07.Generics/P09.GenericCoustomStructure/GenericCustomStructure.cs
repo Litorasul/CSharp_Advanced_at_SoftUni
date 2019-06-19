@@ -3,11 +3,11 @@ using W01.CustomStructures;
 
 namespace P09.GenericCoustomStructure
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
-            DoublyLinkedList<string> doublyLinked= new DoublyLinkedList<string>();
+            DoublyLinkedList<string> doublyLinked = new DoublyLinkedList<string>();
 
 
             doublyLinked.AddFirst("first");
@@ -17,15 +17,18 @@ namespace P09.GenericCoustomStructure
             doublyLinked.AddLast("fifth");
             doublyLinked.AddFirst("last for good measure");
 
-           //doublyLinked.Print(Console.WriteLine);
+            doublyLinked.Print(Console.WriteLine);
+            Console.WriteLine("*****");
 
             doublyLinked.RemoveFirst();
             doublyLinked.RemoveLast();
 
-             //doublyLinked.Print(Console.WriteLine);
+            doublyLinked.Print(Console.WriteLine);
+            Console.WriteLine("*****");
 
             Console.WriteLine(doublyLinked.Contains("third"));
             Console.WriteLine(doublyLinked.Contains("check"));
+            Console.WriteLine("*****");
 
             string[] array = doublyLinked.ToArray();
 

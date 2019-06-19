@@ -36,7 +36,7 @@ namespace W01.CustomStructures
             else
             {
                 newHead.NextNode = head;
-                head.NextNode = newHead;
+                head.PreviousNode = newHead;
                 head = newHead;
             }
 
@@ -46,6 +46,7 @@ namespace W01.CustomStructures
         public void AddLast(T value)
         {
             ListNode newTail = new ListNode(value);
+
             if (Count == 0)
             {
                 tail = head = newTail;
