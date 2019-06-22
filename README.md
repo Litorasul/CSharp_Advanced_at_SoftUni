@@ -12,3 +12,6 @@ Topics:
 06. Defining Classes
 07. Generics
 08. Iterators and Comparators
+
+Workshop - Custom Structures
+Workshop - Basic Algorithms
