@@ -1,4 +1,4 @@
-# CSharp_at_SoftUni
+# C# Advanced at SoftUni
 May - June 2019
 
 My Homeworks for the C# Advanced module at SoftUni
